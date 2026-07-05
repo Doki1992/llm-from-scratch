@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "datasets==3.6.0",
+    "importnb>=2023.11.1",
+    "ipynb>=0.5.1",
     "pandas==2.2.2",
     "safetensors==0.4.3",
     "scikit-learn==1.6.1",
