@@ -654,6 +654,24 @@ wheels = [
 ]
 
 [[package]]
+name = "importnb"
+version = "2023.11.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/02/a1/4fa06bd014d43f689915878295748243e7ec199a08ab8fc2c51b4e4c2ad4/importnb-2023.11.1.tar.gz", hash = "sha256:95a745ac7299a81f776e8210e8ad77f05731dfce7bad79eb85e08ed37a2488c0", size = 411404, upload-time = "2023-11-02T04:04:32.344Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/42/f0/7f12bb74fc6c64c509c30ca01138c214dede42a78a7c33175c2d09ea4a2b/importnb-2023.11.1-py3-none-any.whl", hash = "sha256:1a294ae2156c851a5794b49dc7b82995932f5116203ba3041de1aaf3ed3173b8", size = 45997, upload-time = "2023-11-02T04:04:33.835Z" },
+]
+
+[[package]]
+name = "ipynb"
+version = "0.5.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a9/73/fd7b6497883c180e870712216348cf0f3271b75347f75cffbf28cf633d7e/ipynb-0.5.1.tar.gz", hash = "sha256:8d834c777ca3885289938728cc382f081c86a58e92961e86f0aba60c96938ce5", size = 3938, upload-time = "2017-10-23T06:25:52.279Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/31/42/4c0bbb66390e3a68e04ebf134c8d074a00c18b5882293f8ace5f7497fbf0/ipynb-0.5.1-py3-none-any.whl", hash = "sha256:9686aafce6fd58ec160fa6ba649a7810df89cc0f06a317188ac5e59fd728e325", size = 6885, upload-time = "2017-10-23T06:25:54.199Z" },
+]
+
+[[package]]
 name = "jinja2"
 version = "3.1.6"
 source = { registry = "https://pypi.org/simple" }
@@ -680,6 +698,8 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "datasets" },
+    { name = "importnb" },
+    { name = "ipynb" },
     { name = "pandas" },
     { name = "safetensors" },
     { name = "scikit-learn" },
@@ -693,6 +713,8 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "datasets", specifier = "==3.6.0" },
+    { name = "importnb", specifier = ">=2023.11.1" },
+    { name = "ipynb", specifier = ">=0.5.1" },
     { name = "pandas", specifier = "==2.2.2" },
     { name = "safetensors", specifier = "==0.4.3" },
     { name = "scikit-learn", specifier = "==1.6.1" },
