@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "datasets==3.6.0",
+    "graphviz>=0.21",
     "importnb>=2023.11.1",
     "ipynb>=0.5.1",
     "pandas==2.2.2",
@@ -13,6 +14,8 @@ dependencies = [
     "scikit-learn==1.6.1",
     "tiktoken==0.7.0",
     "torch==2.4.0",
+    "torchshow>=0.5.2",
+    "torchview>=0.2.7",
     "transformers==4.55.4",
     "trl==0.22.2",
     "unsloth==2025.9.2",
