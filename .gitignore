@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 gpt2/
+sms_spam_collection/
+*.zip
+*.csv
 # Distribution / packaging
 .Python
 build/
